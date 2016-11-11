@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Karla|PT+Sans+Narrow);
+
+
+body{
+  background-color: #DCDCDC;
+  line-height: 1.5;
+  font-size: 14px;
+  font-family: "Sans Narrow", sans-serif;
+}
+
+#container{
+  width: 830px;
+  margin: 0 auto;
+}
+
+header h1{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 50px;
+  color: rgb(0,0,0);
+  text-align: center;
+}
+
+nav ul{
+  padding-left: 0;
+  margin:0 auto;
+  list-style: none;
+  font-size: 20px;
+  border-bottom: 5px solid #FF8C00;
+  text-align: center;
+  width: 830px;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 30px;
+}
+
+a{
+  color: rgb(0,0,0);
+}
+
+a:visited{
+  color: #FF8C00;
+}
+
+a:hover{
+  color: #008000;
+}
+
+main{
+  width:830px;
+}
+
+img{
+  border-width: 15px;
+  border-style: solid;
+  border-color: #FF8C00;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 800px;
+}
+
+main{
+  overflow:visible;
+}
+
+#left-container{
+  float:left;
+  width:400px;
+}
+
+#right-container{
+  float:right;
+  width: 400px;
+}
+
+h2{
+  border-bottom: 5px solid #FF8C00;
+}
+
+p{
+  margin: 0px;
+  padding-left: 0px;
+}
+
+article{
+  margin-bottom: 30px;
+}
