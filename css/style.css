@@ -3,7 +3,7 @@
 
 
 body{
-  background-color: #DCDCDC;
+  background-color: #e0e0e0;
   line-height: 1.5;
   font-size: 14px;
   font-family: "Sans Narrow", sans-serif;
@@ -12,6 +12,41 @@ body{
 #container{
   width: 830px;
   margin: 0 auto;
+}
+
+#journalism img {
+  float: right;
+  margin-left: 40px;
+  width: 370px;
+}
+
+#journalism blockquote {
+  margin: 0;
+  margin-top: 40px;
+  font-size: 25px;
+  font-family: 'Fjalla One', sans-serif;
+  line-height: 2;
+}
+
+#journalism blockquote p:last-child {
+  float: right;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#journalism p{
+  text-indent: 0;
+}
+
+#anchor-desk img{
+  margin-top: 50px;
+}
+
+#about-me{
+  font-size: 15px;
+  font-family: "Sans Narrow", sans-serif;
+  padding-top: 50px;
+  line-height: 2;
 }
 
 header h1{
@@ -40,6 +75,10 @@ a{
   color: rgb(0,0,0);
 }
 
+a:active{
+  color: black;
+}
+
 a:visited{
   color: #FF8C00;
 }
@@ -49,7 +88,8 @@ a:hover{
 }
 
 main{
-  width:830px;
+  width: 830px;
+  overflow: auto;
 }
 
 img{
@@ -58,13 +98,6 @@ img{
   border-color: #FF8C00;
   position: relative;
   margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 800px;
-}
-
-main{
-  overflow:visible;
 }
 
 #left-container{
@@ -84,8 +117,39 @@ h2{
 p{
   margin: 0px;
   padding-left: 0px;
+  text-indent: 10px;
 }
 
 article{
   margin-bottom: 30px;
+}
+
+#container-art{
+  width: 830px;
+  margin: 0 auto;
+}
+
+#left-container-art{
+  float: left;
+    width:552px;
+}
+
+#left-art{
+  float: left;
+  width:270px;
+}
+
+#center-art,
+#right-art{
+  float: right;
+    width:270px;
+}
+
+#center-art{
+  margin-left: 10px;
+  width:270px
+}
+
+#images{
+  width: 100px;
 }

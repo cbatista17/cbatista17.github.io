@@ -1,0 +1,48 @@
+*{
+  background: transparent;
+  color: black;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+@page{
+  margin: 0.4in;
+}
+
+nav li{
+  display: none;
+}
+
+h1{
+  font-size: 28pt;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+h2{
+  font-size: 18pt;
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+#left-container{
+float:left;
+max-width: 46%;
+}
+
+#right-container{
+float:right;
+max-width: 46%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:after {
+  content: " (" attr(href) ") ";
+}
+
+.print-link {
+  display: none;
+}
